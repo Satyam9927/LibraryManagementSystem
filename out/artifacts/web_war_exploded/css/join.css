@@ -1,0 +1,313 @@
+/* Reset */
+
+a{
+	cursor: pointer;
+}
+/* End of Reset */
+
+/* SignUp */
+
+#signup{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: white;
+	text-align: center;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+	overflow: auto;
+}
+#signup .close_btn{
+	text-align: right;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+#signup .close_btn h2{
+	cursor: pointer;
+}
+#signup .close_btn h2:hover{
+	color: 	#a8a8a8;
+}
+.visibility{
+	visibility: hidden;
+}
+#signup h1{
+	text-align: center;
+	color: #22384d;
+	font-size: 3em;
+	margin-top: -30px;
+}
+#signup_col{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+#signup form{
+	padding-top: 0px;
+}
+#signup input{
+	width: 80%;
+	padding: 10px;
+	margin-top: 10px;
+}
+#signup button{
+	width: 80%;
+	padding: 10px;
+	color: #22384d;
+	background-color: #f3d324;
+	border: 0;
+	margin-top: 20px;
+}
+#signup button:hover{
+	color: #f3d324;
+	background-color: #22384d;
+}
+
+/* Common Code */
+
+.error{
+	width: 80%;
+	margin: auto;
+	text-align: right;
+	padding-top: 5px;
+	font-style: italic;
+	color:  #22384d;
+}
+.login_with{
+	border-left: 1px solid black;
+	padding-top: 10px;
+}
+.login_with .icon{
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.login_with .icon a{
+	color: white;
+}
+.login_with .icon a:hover{
+	text-decoration: none;
+}
+.login_with div:nth-of-type(1){
+	background-color: #3b5998;
+}
+.login_with div:nth-of-type(1):hover{
+	background-color: #4265ab;
+}
+.login_with div:nth-of-type(2){
+	background-color: #e53935;
+}
+.login_with div:nth-of-type(2):hover{
+	background-color: #ed3b37;
+}
+
+/* End of Common Code */
+
+/* End of SignUp */
+
+/* Login */
+
+#login{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: white;
+	text-align: center;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+	overflow: auto;
+}
+#login .close_btn{
+	text-align: right;
+	padding: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#login .close_btn h2{
+	cursor: pointer;
+}
+#login .close_btn h2:hover{
+	color: 	#a8a8a8;
+}
+#login h1{
+	text-align: center;
+	color: #22384d;
+	font-size: 3em;
+	margin-top: -20px;
+}
+#login form{
+	padding-top: 0px;
+}
+#login form p{
+	width: 80%;
+	margin: auto;
+	text-align: right
+}
+#login form p #remember{
+	float: left;
+}
+#login .input{
+	width: 80%;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+#login input:nth-of-type(3){
+	width: auto;
+	padding: 0px;
+	margin-top:0px;
+}
+#login button{
+	width: 80%;
+	padding: 10px;
+	color: #22384d;
+	background-color: #f3d324;
+	border: 0;
+}
+#login button:hover{
+	color: #f3d324;
+	background-color: #22384d;
+}
+#login input:nth-of-type(2){
+	margin-bottom: 15px;
+}
+#login_col{
+	margin-top: 40px;
+}
+#login_col a{
+	cursor: pointer;
+}
+#login_col button{
+	margin-top: 15px;
+}
+
+/* End of Login */
+
+/* Reset */
+
+#reset{
+	position: fixed;
+	top: -999px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: white;
+	text-align: center;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+	overflow: auto;
+}
+#reset .close_btn{
+	text-align: right;
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+#reset .close_btn h2{
+	cursor: pointer;
+}
+#reset .close_btn h2:hover{
+	color: 	#a8a8a8;
+}
+#reset h1{
+	text-align: center;
+	color: #22384d;
+	font-size: 3em;
+}
+#reset form{
+	padding-top: 0px;
+}
+#reset .input{
+	width: 80%;
+	padding: 10px;
+	margin-top: 5px;
+}
+#reset button{
+	width: 80%;
+	padding: 10px;
+	color: #22384d;
+	background-color: #f3d324;
+	border: 0;
+}
+#reset button:hover{
+	color: #f3d324;
+	background-color: #22384d;
+}
+#reset input:nth-of-type(1){
+	margin-bottom: 15px;
+}
+
+/* End of Reset */
+
+@media screen and (max-width:992px){
+	.login_with .icon{
+		width: 95%;
+		margin-bottom: 10px;
+	}
+	.login_with{
+		border: 0px;
+	}
+	#signup {
+		top: -20px;
+	}
+	#signup h1{
+		margin-top: -21px;
+	}
+	#signup_col{
+		padding-top: 20px;
+	}
+	#signup input{
+		width: 95%;
+		padding: 10px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+	}
+	#signup button{
+		width: 95%;
+	}
+	#login{
+		top: -20px;
+	}
+	#login h1{
+		margin-top: -21px;
+	}
+	#login_col{
+		margin-top: 0px;
+		padding-top: 20px;
+	}
+	#login .input{
+		width: 95%;
+		padding: 10px;
+		margin-top: 5px;
+	}
+	#login button{
+		width: 95%;
+	}
+	#login form p{
+		width: 95%;
+	}
+	#login button{
+		width: 95%;
+	}
+	#reset .input{
+		width: 95%;
+	}
+	#reset button{
+		width: 95%;
+	}
+	.error{
+		width: 95%;
+	}
+}
+@media screen and (min-width:992px){
+	.flex{
+		display: -webkit-box;
+  		display: -webkit-flex;
+  		display: -ms-flexbox;
+  		display: flex;
+	}
+}
